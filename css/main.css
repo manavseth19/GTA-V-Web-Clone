@@ -1,0 +1,156 @@
+a {
+  text-decoration: none;
+  color: black; }
+
+
+
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  border-bottom: 8px solid #ffbe00;
+  background: #488bc2; }
+  .navbar .logo {
+    display: inline-block;
+    width: 220px; }
+  .navbar .navbar-stuff {
+    display: block;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px; }
+  .navbar .weather {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 0;
+    color: #fff; }
+    .navbar .weather img {
+      display: inline-block;
+      float: right;
+      width: 55px;
+      height: 55px;
+      margin-left: 10px;
+      padding-left: 20px;
+      border-left: 3px solid white; }
+
+
+
+
+
+
+
+
+.choose {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #dadada;
+  background: #f0f0f0; }
+  .choose .which {
+    display: block;
+    width: 75%;
+    margin: 0 auto; }
+    .choose .which :hover {
+      color: #488bc2; }
+    .choose .which div {
+      display: inline-block;
+      width: 19%;
+      height: 50px; }
+      .choose .which div img {
+        float: left;
+        height: 70%;
+        margin-top: 7px;
+        margin-left: 15px; }
+      .choose .which div p {
+        font-size: 13px;
+        display: inline-block;
+        margin-top: 13px;
+        margin-left: 25px;
+        text-align: center;
+        vertical-align: center; }
+
+.startpage {
+  display: block;
+  width: 76%;
+  margin: 0 auto;
+  margin-top: 280px;
+  margin-bottom: 100px; }
+  .startpage .left {
+    display: inline-block;
+    width: 68%; }
+    
+      .startpage .left .wotm img {
+        display: inline-block;
+        float: left;
+        height: 100px;
+        margin-right: 20px; }
+      .startpage .left .wotm h2 {
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+        color: #3c3c3c; }
+      .startpage .left .wotm h3 {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 15px; }
+      .startpage .left .wotm p {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 20px;
+        color: #3c3c3c; }
+  .startpage .right {
+    display: inline-block;
+    width: 30%;
+    margin-left: 15px; }
+    
+  .startpage .featured {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    background: #f0f0f0; }
+    .startpage .featured h2 {
+      font-size: 20px;
+      display: block;
+      margin-bottom: 10px;
+      padding-top: 15px;
+      padding-left: 15px;
+      text-align: left;
+      color: #3c3c3c; }
+    .startpage .featured img {
+      display: inline-block;
+      width: 19%;
+      margin: 10px; }
+  .startpage .link {
+    width: 100%;
+    height: 115px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    background: #f0f0f0; }
+    .startpage .link .link:hover {
+      border: 3px solid #488bc2; }
+    .startpage .link img {
+      display: inline-block;
+      float: left;
+      height: 99%;
+      margin-right: 20px; }
+    .startpage .link h2 {
+      font-size: 18px;
+      margin-top: 10px; }
+    .startpage .link p {
+      font-size: 15px;
+      margin-top: 10px;
+      color: #3c3c3c; }
+
+
